@@ -42,9 +42,6 @@ public class dateTimeManipulation {
         long fistToFinish = Math.min(emp1Finish.getTime(),emp2Finish.getTime());
         long lastToStart =  Math.max(emp1Start.getTime(),emp2Start.getTime());
         days = TimeUnit.MILLISECONDS.toDays(fistToFinish - lastToStart);
-        System.out.println(fistToFinish);
-        System.out.println(lastToStart);
-        System.out.println(days);
         return days;
     }
 }
