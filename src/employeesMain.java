@@ -4,7 +4,8 @@ public class employeesMain {
     public static void main(String[] args) {
         File file = new File("./src/resources/employeesData.txt");
         String[][] employeeData = readInputFile.readFile(file);
- /*
+        boolean sameProject = false;
+
         for (String[] a : employeeData)
         {
             System.out.print(a[0]+" ");
@@ -14,6 +15,6 @@ public class employeesMain {
             System.out.println("");
 
         }
-*/
+
     }
 }
