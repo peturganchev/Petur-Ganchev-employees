@@ -1,7 +1,9 @@
 import java.io.File;
 import java.util.Date;
+import java.util.Scanner;
 
 public class employeesMain {
+    private static String line = "______________________________________________";
 
     /**
      * Used to find if 2 coworkers worked together on one project
@@ -55,8 +57,51 @@ public class employeesMain {
             }
         }
 
+    /**
+     * used to choose between default file or custom .txt file
+     * @return returns String "./src/resources/" + fileName.txt as a path
+     */
+    private static File chooseTextFile(){
+            Scanner scanner = new Scanner(System.in);
+            File file;
+            String path;
+            System.out.println("Press 1 if you want to change employeesData.txt with custom .txt file " +
+                    "or 2 if you want to keep the same file.");
+            String choice = scanner.nextLine();
+
+            switch (choice){
+                case "1":
+                    System.out.println("place your file in resources package folder and type the name/path of the file (ex. myFile.txt)...");
+                    System.out.print("Your file name: ");
+                    choice = scanner.nextLine();
+                    path = "./src/resources/"+choice;
+                    break;
+                case "2":
+                    path = "./src/resources/employeesData.txt";
+                    break;
+                    default:
+                        System.out.println("Wrong input... Please choose between 1 or 2...");
+                        System.out.println(line);
+                        return chooseTextFile();
+            }
+            file = new File(path);
+        return file;
+        }
+
+
     public static void main(String[] args) {
-        File file = new File("./src/resources/employeesData.txt");
+        File file;
+        /*
+        Got some free time so I added some check in the cases that there is wrong path or wrong file name
+         */
+        do {
+            file = chooseTextFile();
+            if (!file.exists()){
+                System.out.println("There is no such File!");
+                System.out.println(line);
+            }
+        }while (!file.exists());
+
         String[][] employeeData = readInputFile.readFile(file);
         mostTimeTogether(employeeData);
     }

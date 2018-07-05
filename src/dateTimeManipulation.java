@@ -4,14 +4,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class dateTimeManipulation {
+class dateTimeManipulation {
 
     /**
      *  Parses a String to a Date type
      * @param input input the string
      * @return returns a Date type in "yyyy-MM-dd" format
      */
-    public static Date parseDate(String input){
+    static Date parseDate(String input){
         DateFormat  sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date parsedDate = new Date();
         try {
@@ -33,7 +33,7 @@ public class dateTimeManipulation {
      * @param emp2 String array of the second employee
      * @return returns the days in long type
      */
-    public static long daysTogether(String[] emp1, String[] emp2){
+    static long daysTogether(String[] emp1, String[] emp2){
         long days;
         Date emp1Start = dateTimeManipulation.parseDate(emp1[2]);
         Date emp1Finish = dateTimeManipulation.parseDate(emp1[3]);

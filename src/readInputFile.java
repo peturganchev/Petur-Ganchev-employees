@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class readInputFile {
+class readInputFile {
 
     /**
      *  Used to Parse the .txt file to an 2D array with rows ( different people) and cols ( 0: EmpID; 1:ProjectID;
@@ -10,7 +10,7 @@ public class readInputFile {
      * @param file input a File type
      * @return returns an 2D array
      */
-    public static String[][] readFile(File file){
+    static String[][] readFile(File file){
         Scanner fileReader = null;
         String[][] employeeData;
         try {
