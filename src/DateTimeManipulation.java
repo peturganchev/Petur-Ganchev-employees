@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-class dateTimeManipulation {
+class DateTimeManipulation {
 
     /**
      *  Parses a String to a Date type
@@ -35,10 +35,10 @@ class dateTimeManipulation {
      */
     static long daysTogether(String[] emp1, String[] emp2){
         long days;
-        Date emp1Start = dateTimeManipulation.parseDate(emp1[2]);
-        Date emp1Finish = dateTimeManipulation.parseDate(emp1[3]);
-        Date emp2Start = dateTimeManipulation.parseDate(emp2[2]);
-        Date emp2Finish = dateTimeManipulation.parseDate(emp2[3]);
+        Date emp1Start = DateTimeManipulation.parseDate(emp1[2]);
+        Date emp1Finish = DateTimeManipulation.parseDate(emp1[3]);
+        Date emp2Start = DateTimeManipulation.parseDate(emp2[2]);
+        Date emp2Finish = DateTimeManipulation.parseDate(emp2[3]);
         long fistToFinish = Math.min(emp1Finish.getTime(),emp2Finish.getTime());
         long lastToStart =  Math.max(emp1Start.getTime(),emp2Start.getTime());
         days = TimeUnit.MILLISECONDS.toDays(fistToFinish - lastToStart);

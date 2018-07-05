@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.Date;
 import java.util.Scanner;
 
-public class employeesMain {
+public class EmployeesMain {
     private static String line = "______________________________________________";
 
     /**
@@ -12,10 +12,10 @@ public class employeesMain {
      * @return returns true or false
      */
     private static boolean sameTimeOnProject(String[] emp1, String[] emp2){
-        Date emp1Start = dateTimeManipulation.parseDate(emp1[2]);
-        Date emp1Finish = dateTimeManipulation.parseDate(emp1[3]);
-        Date emp2Start = dateTimeManipulation.parseDate(emp2[2]);
-        Date emp2Finish = dateTimeManipulation.parseDate(emp2[3]);
+        Date emp1Start = DateTimeManipulation.parseDate(emp1[2]);
+        Date emp1Finish = DateTimeManipulation.parseDate(emp1[3]);
+        Date emp2Start = DateTimeManipulation.parseDate(emp2[2]);
+        Date emp2Finish = DateTimeManipulation.parseDate(emp2[3]);
         int project1 = Integer.parseInt(emp1[1]);
         int project2 = Integer.parseInt(emp2[1]);
         boolean sameProject = project1 == project2;
@@ -41,9 +41,9 @@ public class employeesMain {
         for (int i = 0; i < employeeData.length; i++) {
             for (int j = i+1; j < 4; j++) {
                 if (sameTimeOnProject(employeeData[i],employeeData[j])&&
-                        (dateTimeManipulation.daysTogether(employeeData[i],employeeData[j])) > mostDays){
+                        (DateTimeManipulation.daysTogether(employeeData[i],employeeData[j])) > mostDays){
 
-                    mostDays = dateTimeManipulation.daysTogether(employeeData[i],employeeData[j]);
+                    mostDays = DateTimeManipulation.daysTogether(employeeData[i],employeeData[j]);
                     employee1 = i;
                     employee2 = j;
                 }
@@ -102,7 +102,7 @@ public class employeesMain {
             }
         }while (!file.exists());
 
-        String[][] employeeData = readInputFile.readFile(file);
+        String[][] employeeData = ReadInputFile.readFile(file);
         mostTimeTogether(employeeData);
     }
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c210fd2e-7686-4807-b442-b78470ebb222" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dateTimeManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dateTimeManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employeesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employeesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readInputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dateTimeManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTimeManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employeesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadInputFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +17,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="EmployeesMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmployeesMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1591">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadInputFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReadInputFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,9 +64,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/BuildTableWithArrays.java" />
         <option value="$PROJECT_DIR$/src/resources/employeesData.txt" />
-        <option value="$PROJECT_DIR$/src/employeesMain.java" />
         <option value="$PROJECT_DIR$/src/readInputFile.java" />
         <option value="$PROJECT_DIR$/src/dateTimeManipulation.java" />
+        <option value="$PROJECT_DIR$/src/employeesMain.java" />
+        <option value="$PROJECT_DIR$/src/EmployeesMain.java" />
       </list>
     </option>
   </component>
@@ -56,9 +84,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,31 +97,7 @@
             <path>
               <item name="Petur-Ganchev-employees" type="b2602c69:ProjectViewProjectNode" />
               <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Petur-Ganchev-employees" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Petur-Ganchev-employees" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Petur-Ganchev-employees" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Petur-Ganchev-employees" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Petur-Ganchev-employees" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,9 +137,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.employeesMain">
+  <component name="RunManager" selected="Application.EmployeesMain">
     <configuration name="BuildTableWithArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuildTableWithArrays" />
+      <module name="Petur-Ganchev-employees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="EmployeesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeesMain" />
       <module name="Petur-Ganchev-employees" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -188,9 +197,11 @@
     <list>
       <item itemvalue="Application.employeesMain" />
       <item itemvalue="Application.BuildTableWithArrays" />
+      <item itemvalue="Application.EmployeesMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeesMain" />
         <item itemvalue="Application.employeesMain" />
         <item itemvalue="Application.BuildTableWithArrays" />
       </list>
@@ -214,31 +225,31 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32899022" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1669107" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1669107" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -250,21 +261,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildTableWithArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dateTimeManipulation.java">
+    <entry file="file://$PROJECT_DIR$/src/resources.java" />
+    <entry file="file://$PROJECT_DIR$/src/BuildTableWithArrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateTimeManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
@@ -274,24 +273,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/readInputFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Petur-Ganchev-employees/readInputFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/production/Petur-Ganchev-employees/ReadInputFile.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/employeesData.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -300,10 +283,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/employeesMain.java">
+    <entry file="file://$PROJECT_DIR$/src/ReadInputFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="525">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmployeesMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

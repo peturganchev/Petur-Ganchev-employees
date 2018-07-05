@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class readInputFile {
+class ReadInputFile {
 
     /**
      *  Used to Parse the .txt file to an 2D array with rows ( different people) and cols ( 0: EmpID; 1:ProjectID;
