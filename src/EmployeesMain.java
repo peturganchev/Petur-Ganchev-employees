@@ -39,7 +39,8 @@ public class EmployeesMain {
         int employee1 = 0;
         int employee2 = 0;
         for (int i = 0; i < employeeData.length; i++) {
-            for (int j = i+1; j < 4; j++) {
+            for (int j = i+1; j < employeeData.length; j++) {
+                System.out.printf("i = %d j = %d%n",i,j);
                 if (sameTimeOnProject(employeeData[i],employeeData[j])&&
                         (DateTimeManipulation.daysTogether(employeeData[i],employeeData[j])) > mostDays){
 
