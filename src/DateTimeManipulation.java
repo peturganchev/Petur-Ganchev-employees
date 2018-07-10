@@ -33,7 +33,7 @@ class DateTimeManipulation {
      * @param emp2 String array of the second employee
      * @return returns the days in long type
      */
-    static long daysTogether(String[] emp1, String[] emp2){
+    static int daysTogether(String[] emp1, String[] emp2){
         long days;
         Date emp1Start = DateTimeManipulation.parseDate(emp1[2]);
         Date emp1Finish = DateTimeManipulation.parseDate(emp1[3]);
@@ -42,6 +42,6 @@ class DateTimeManipulation {
         long fistToFinish = Math.min(emp1Finish.getTime(),emp2Finish.getTime());
         long lastToStart =  Math.max(emp1Start.getTime(),emp2Start.getTime());
         days = TimeUnit.MILLISECONDS.toDays(fistToFinish - lastToStart);
-        return days;
+        return (int)days;
     }
 }
